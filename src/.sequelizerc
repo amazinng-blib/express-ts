@@ -1,0 +1,9 @@
+const path = require('path');
+const migrationEnv = process.env.MIGRATION_ENV || 'local';
+
+module.exports = {
+  config: path.resolve('config', 'config.json'),
+  'models-path': path.resolve('models'),
+  'seeders-path': path.resolve('seeders'),
+  'migrations-path': path.resolve('migrations', migrationEnv),
+};

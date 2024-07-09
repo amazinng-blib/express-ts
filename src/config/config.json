@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "postgress",
+    "database": "famsAcademyServer",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "postgress",
+    "database": "famsAcademyServer",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "famsAcademy2020",
+    "database": "postgres.jsmfscaaovulitcfokry",
+    "host": "aws-0-eu-central-1.pooler.supabase.com",
+    "dialect": "postgres"
+  }
+}
